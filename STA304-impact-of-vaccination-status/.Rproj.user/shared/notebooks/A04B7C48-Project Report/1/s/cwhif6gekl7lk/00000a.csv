@@ -1,6 +1,0 @@
-"0",""
-"0","# two way interaction between sex and marital status"
-"0","sex_marital <- interaction.plot(data_final$sex,data_final$marital,data_final$realinc, type = ""l"","
-"0","                                xlab = ""Sex"",trace.label = ""Marital"","
-"0","                                ylab = ""Mean yield"","
-"0","                                main = ""sex and marital status"")"

@@ -1,8 +1,0 @@
-"0","# The cube shows how this design produces 12 comparisons along the 12 edges of the cube"
-"0","# four measures of the effect of sex change;"
-"0","# four measures of the effect of marital status change; "
-"0","# four measures of the effect of degree change."
-"0","# On each edge of the cube only one factor is changed with the other two held constant"
-"0",""
-"0","c_plot <- lm(realinc~marital*degree*sex,data = data_final)"
-"0","cubePlot(c_plot,""marital"",""degree"",""sex"",main = ""Cube plot for Income"")"
