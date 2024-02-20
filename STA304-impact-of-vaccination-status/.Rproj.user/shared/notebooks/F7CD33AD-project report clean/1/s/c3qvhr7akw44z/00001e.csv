@@ -1,0 +1,5 @@
+"0","# two way interaction between sex and degree"
+"0","sex_degree <- interaction.plot(data_final$sex,data_final$degree,data_final$realinc, type = ""l"","
+"0","                               xlab = ""Sex"",trace.label = ""Degree"","
+"0","                               ylab = ""Mean yield"","
+"0","                               main = ""interaction between sex and degree status"")"

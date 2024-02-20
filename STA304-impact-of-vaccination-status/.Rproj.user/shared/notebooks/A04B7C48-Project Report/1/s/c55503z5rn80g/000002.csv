@@ -1,0 +1,2 @@
+"0","#  normal plot of the factorial effects"
+"0","DanielPlot(fact_mod8,half = FALSE,autolab = F, main = ""Normal plot of effects"")"

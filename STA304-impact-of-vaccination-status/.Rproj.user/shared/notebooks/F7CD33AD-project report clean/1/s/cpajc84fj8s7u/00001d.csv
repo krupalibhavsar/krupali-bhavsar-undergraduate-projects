@@ -1,0 +1,5 @@
+"0","# two way interaction between marital status and degree"
+"0","marital_degree <- interaction.plot(data_final$marital,data_final$degree,data_final$realinc, type = ""l"","
+"0","                                   xlab = ""Marital"",trace.label = ""Degree"","
+"0","                                   ylab = ""Mean yield"","
+"0","                                   main = ""interaction between marital status and degree status"")"

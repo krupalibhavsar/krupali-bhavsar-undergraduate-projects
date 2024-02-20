@@ -1,0 +1,69 @@
+"0","knitr::opts_chunk$set(echo = TRUE)"
+"0",""
+"0","library(tidyverse)"
+"0","library(readr)"
+"0","library(dplyr)"
+"0","library(knitr)"
+"0","library(patchwork)"
+"0","library(tidyr)"
+"0","library(haven)"
+"0","library(FrF2)"
+"0","library(BsMD)"
+"0","library(memisc)"
+"2","Loading required package: lattice
+"
+"2","Loading required package: MASS
+"
+"2","
+Attaching package: ‘MASS’
+
+"
+"2","The following object is masked from ‘package:patchwork’:
+
+    area
+
+"
+"2","The following object is masked from ‘package:dplyr’:
+
+    select
+
+"
+"2","Registered S3 method overwritten by 'data.table':
+  method           from
+  print.data.table     
+"
+"2","
+Attaching package: ‘memisc’
+
+"
+"2","The following objects are masked from ‘package:dplyr’:
+
+    collect, recode, rename, syms
+
+"
+"2","The following object is masked from ‘package:purrr’:
+
+    %@%
+
+"
+"2","The following object is masked from ‘package:tibble’:
+
+    view
+
+"
+"2","The following object is masked from ‘package:ggplot2’:
+
+    syms
+
+"
+"2","The following objects are masked from ‘package:stats’:
+
+    contr.sum, contr.treatment, contrasts
+
+"
+"2","The following object is masked from ‘package:base’:
+
+    as.array
+
+"
+"0","raw_data <- haven::read_dta(""/Users/krupalibhavsar/Desktop/STA304/paper 3/gss_analysis/inputs/data/2021_stata/gss2021.dta"")"
